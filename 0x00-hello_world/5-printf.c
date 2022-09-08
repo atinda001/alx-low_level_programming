@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
- *int main-beginning of the program
+ *main-Entry point
  *
- * retrun: always o successful
+ *Return:Always 0 (success)
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
