@@ -1,9 +1,10 @@
 #include <stdio.h>
-/** description 
- * int main(void) beginning of code
+/**
+ * main-beginning of code
+ * return-returns 0 if succesful
  */
 int main(void)
 {
-	puts("'Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
