@@ -9,15 +9,15 @@
 /* betty style doc for function main goes there */
 
 /**
- * main-Entry point
+ * main-Program entry point
  *
- * Return:Always 0 (Successful)
+ * Return: 0 is Success. Error code otherwise
  */
 int main(void)
 
 {
 
-		int n;
+		int n,lastDigit;
 
 
 
@@ -26,30 +26,23 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					/* your code goes there */
-				int last_digit;
-
-				last_digit = n % 10;
-
-				while (n > 10)
+				if (lastDigit > 5)
+						
 				{
-					n = n / 10;
-				}
+				printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
 
-				printf("Last digit of %d ", n);
-				printf("is %d ", last_digit);
+				}	
+				else if	(lastDigit == 0)
+				{
+				printf("Last digit of %d is %d and is 0\n", n, lastDigit);
+				}
+				else if (lastDigit < 6 && lastDigit != 0)
 
-				if (last_digit > 5)
 				{
-					printf("and is greater than 5 ");
-				}
-				else if (last_digit < 6 && last_digit != 0)
-				{
-					printf("and is less than 6 and not 0");
-				}
-				else if (last_digit == 0)
-				{
-					printf("and is 0");
-				}
+				printf("Last digit of %d is %d and is less than 6 and ", n, lastDigit);
+
+													        printf("not 0\n");
+														}
 
 					return (0);
 

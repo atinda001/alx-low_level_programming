@@ -2,7 +2,7 @@
 /**
  * main - program entry point
  *
- * Return : 0 is Success. Otherwise error code
+ * Return: 0 is Success. Error code otherwise
  */
 int main(void)
 {
