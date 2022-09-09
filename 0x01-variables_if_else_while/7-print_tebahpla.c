@@ -1,20 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main-Entry point
+ * main- program entry point
  *
- * Return:Always 0 (Successful)
+ * Return: 0 on Success. Error code otherwise
  */
 int main(void)
 {
 	char a;
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (a = 'z'; a >= 'a'; a--)
 	{
 		putchar(a);
 	}
 	putchar('\n');
-
 	return (0);
 }

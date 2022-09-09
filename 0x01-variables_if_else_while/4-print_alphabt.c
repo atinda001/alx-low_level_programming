@@ -11,14 +11,11 @@ int main(void)
 
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		putchar(lower);
-	}
-	char upper;
-
-	for (upper = 'A'; upper <= 'Z'; upper++)
-	{
-		putchar(upper);
+		if (lower != 'e' && lower != 'q')
+		{
+			putchar(lower);
+		}
 	}
 	putchar('\n');
-	return (0);
+		return (0);
 }
