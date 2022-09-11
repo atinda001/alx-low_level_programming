@@ -2,22 +2,22 @@
 
 #include <time.h>
 
+#include <stdio.h>
 /* more headers goes there */
 
-#include <stdio.h>
+/**
+ * main- program entry point
+ *
+ * Return: 0 on success. Error code otherwise
+ */
 
 /* betty style doc for function main goes there */
 
-/**
- * main-Program entry point
- *
- * Return: 0 is Success. Error code otherwise
- */
 int main(void)
 
 {
 
-		int n,lastDigit;
+		int n;
 
 
 
@@ -26,23 +26,23 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					/* your code goes there */
-				if (lastDigit > 5)
-						
-				{
-				printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
+				int lastDigit;
+				lastDigit = n % 10;
 
-				}	
-				else if	(lastDigit == 0)
+				printf("last digit of %d  is %d ", n,lastDigit);
+				if (n > 5)
 				{
-				printf("Last digit of %d is %d and is 0\n", n, lastDigit);
+					printf(" and is greater than 5\n");
 				}
-				else if (lastDigit < 6 && lastDigit != 0)
 
-				{
-				printf("Last digit of %d is %d and is less than 6 and ", n, lastDigit);
-
-													        printf("not 0\n");
-														}
+					else if ( n == 0)
+					{
+						printf(" and is 0\n");
+					}
+					else if (n < 6 && n != 0)
+					{
+						printf(" and is less than 6 and not 0\n");
+					}
 
 					return (0);
 
