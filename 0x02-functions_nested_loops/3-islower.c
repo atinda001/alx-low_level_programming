@@ -1,14 +1,14 @@
 #include "main.h"
+#include <ctypr.h>
 /**
- * main
- *
+ * 
  * int _islower(int c)
  *
  * Return: 
  */
 int _islower(int c)
 {
-	if ( c == 'a' || 'z')
+	if (islower(c))
 	{
 		_putchar("1");
 	}
@@ -17,5 +17,4 @@ int _islower(int c)
 		_putchar("0");
 	}
 }
-
 
