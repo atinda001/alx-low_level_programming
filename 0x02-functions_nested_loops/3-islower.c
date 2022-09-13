@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctypr.h>
+#include <ctype.h>
 /**
  * 
  * int _islower(int c)
