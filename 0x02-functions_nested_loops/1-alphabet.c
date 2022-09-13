@@ -4,18 +4,21 @@
  *
  * Return: Always 0
  */
+print_alphabet();
 int main(void)
 {
-	void print_alphabet()
+	print_alphabet();
+	return (0);
+}
+
+	print_alphabet()
 	{
-	char a;
+	int a;
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		_putchar(a);
 	}
 	_putchar('\n');
-
+	return (print_alphabet);
 	}
-	return (0);
-}
