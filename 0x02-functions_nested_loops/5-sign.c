@@ -3,7 +3,7 @@
  *print_sign - prints sign
  *
  *@n: assigns sign
- *Return: 1 if n greater, 0 if equal and -1 if less 
+ *Return: 1 if n greater, 0 if equal and -1 if less
  */
 int print_sign(int n)
 {
