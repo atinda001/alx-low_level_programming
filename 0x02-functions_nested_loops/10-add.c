@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * add - print sum
+ *add - print sum
  *
- * @x,y: integer variables
+ *@x: integer added to y
+ *@y: integer added to x
  *
- * Return: returns sum of x and y
+ *Return: returns sum of x and y
  */
 int add(int x, int y)
 {
