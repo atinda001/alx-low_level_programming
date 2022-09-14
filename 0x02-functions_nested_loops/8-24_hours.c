@@ -19,8 +19,6 @@ void jack_bauer(void)
 		{
 			_putchar(x);
 			_putchar(a);
-		}
-	}
 	_putchar(':');
 
 	for (z = 0; z <= 5; z++)
@@ -29,6 +27,8 @@ void jack_bauer(void)
 		{
 			_putchar(z);
 			_putchar(b);
+		}
+	}
 		}
 	}
 }
