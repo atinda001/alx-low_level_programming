@@ -2,12 +2,12 @@
 /**
  *print_sign - prints sign
  *
- *@n assigns sign
+ *@n: assigns sign
  *Return: 1 if n greater, 0 if equal and -1 if less 
  */
 int print_sign(int n)
 {
-	if (n > 0 )
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
