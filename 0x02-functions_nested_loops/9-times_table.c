@@ -17,7 +17,7 @@ void times_table()
 	{
 		for (j = 0; j < 9; j++)
 		{
-			return (product);
+		_putchar(product);
 		}
 	}
 }
