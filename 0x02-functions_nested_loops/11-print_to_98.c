@@ -13,6 +13,6 @@ void print_to_98(int n)
 
 	for (x = n; x <= 98; x++)
 	{
-		_putchar(x);
+		printf("%d, ", x);
 	}
 }
