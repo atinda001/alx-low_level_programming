@@ -21,6 +21,6 @@ void times_table()
 			_putchar(product);
 		}
 		_putchar(',');
-		_putchar('  ');
+		_putchar(  );
 	}
 }
