@@ -1,20 +1,19 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * 
- * int _islower(int c)
+ *_islower - islower
  *
- * Return: 
+ * checks if is lowercase
  */
 int _islower(int c)
 {
 	if (islower(c))
 	{
-		_putchar('1');
+		return (1);
 	}
 	else 
 	{
-		_putchar('0');
+		return(0);
 	}
-	return (0);
+	return (void);
 }
