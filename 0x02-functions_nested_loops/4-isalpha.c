@@ -2,20 +2,20 @@
 #include <ctype.h>
 
 /**
+ *_isalpha - check for alphabets
  *
+ *@c: int to be checked
  *
- *
- * Return:
+ * Return: 1 if alphabet otherwise 0
  */
 int _isalpha(int c)
 {
-	if (isalpha(c) != 0)
+	if (c > 64 && c < 123)
 	{
-		_putchar('1');
+		return (1);
 	}
 	else
 	{
-		_putchar('0');
+		return ('0');
 	}
-	return (0);
 }
