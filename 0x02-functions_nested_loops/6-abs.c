@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * _abs - absolute value of int
+ * _abs -print_alphabet
  *
- * @int: variable
+ * @x: variable
  *
  * Return: abs value of int
  */
 
-int _abs(int)
+int _abs(int x)
 {
-	int x;
 
-	if ( x > 0)
+	if (x > 0)
 	{
 	return (x);
 	}
