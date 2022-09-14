@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * main - program entry point
+ *print_alphabet_x10 - print_alphabet
  *
- * print_alphabet_x10(): - print alphabet 10 times
- *
- * Return: 0 is success 
+ * print alphabets 10 times
  */
 void print_alphabet_x10()
 {
 	char a;
+	int i;
 
-	for (int i = 1; i <= 10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		for (a = 'a'; a <= 'z'; a++)
 		{
