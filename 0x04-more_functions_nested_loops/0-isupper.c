@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * _isupper - chhecks upper case
+ *_isupper - checks for upper case
  *@c: variable to be tested
- * Return 1 if upper else 0
+ *Return: 1 if upper else 0
  */
 
-int _isupper(int c)
+int _isupper(char c)
 {
-	if (c == _isupper(c))
+	if (c < 91 && c > 64)
 	{
-		return (1);
+		return(1);
 	}
 	else
 	{
-		return (0);
+		return(0);
 	}
 }
