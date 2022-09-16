@@ -6,6 +6,12 @@
  */
 int _isdigit(int c)
 {
-	putchar(_isdigit(c), '0');
-	return (0);
+	if ( c < 58 && c > 47)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
