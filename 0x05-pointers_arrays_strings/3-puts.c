@@ -2,9 +2,9 @@
 /**
  * _puts -prints a string
  *
- * str: string to be printed
+ *@str: pointer to string to be printed
  */
-_puts(char *str)
+void _puts(char *str)
 {
-	man(str);
+	puts(str);
 }

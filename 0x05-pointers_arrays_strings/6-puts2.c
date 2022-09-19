@@ -6,5 +6,12 @@
  */
 void puts2(char *str)
 {
-	puts2
+	int i;
+
+	for (i = 0; i < 5; i += 2)
+	{
+		puts(str);
+		str += 2;
+
+	}
 }
