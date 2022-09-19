@@ -5,12 +5,10 @@
  *
  * @*n: pointer to n
  *
- * @n: stored value 
+ * @n: stored value
  */
 
 void reset_to_98(int *n)
 {
 	*n = 98;
-	return;
 }
-	
