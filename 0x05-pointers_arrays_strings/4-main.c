@@ -1,8 +1,8 @@
 #include "main.h"
-/*8
+/**
  * main - include the program
  *
- * Return: Alway s0
+ * Retur: Always 0
  */
 int main(void)
 {

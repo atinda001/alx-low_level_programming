@@ -6,12 +6,16 @@
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < 5; i += 2)
+	while (str[i] != '\0')
 	{
-		puts(str);
-		str += 2;
-
+		if (i % 2 == 0)
+		{
+			putchar(str[i]);
+		}
+		i++;
 	}
+
+	putchar('\n');
 }

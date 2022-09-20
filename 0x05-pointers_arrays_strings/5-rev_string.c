@@ -6,12 +6,22 @@
  */
 void rev_string(char *s)
 {
-	int length;
+	int length, half;
 	int i;
+	char temp;
 
-	length = strlen(s);
-	for (i = length; i >= 0; i--)
+
+	for (length = 0; s[length] != '\0'; length++)
+		;
+
+		i = 0;
+		half = length / 2;
+
+	while (half--)
 	{
-		printf("%c", s[i]);
+		temp = s[length - i - 1];
+		s[length - i - 1] = s[i];
+		s[i] = temp;
+		i++;
 	}
 }
