@@ -8,25 +8,20 @@
 void reverse_array(int *a, int n)
 {
 
-	int len;
-	const char temp, *begin, *end;
 
-	len = *a;
-	begin = *a;
-	end = *a;
+	int tmp, start, end;
 
-	for (n = 0; n < len -1; n++)
+
+	start = 0;
+	end = n - 1;
+
+	while (start < end)
 	{
-		end++;
-	}
-
-	for (n = 0; n < len / 2; n++)
-	{
-		temp = *end;
-		*end = *begin;
-		*begin = temp;
-		begin++;
+		tmp = a[start];
+		a[start] = a[end];
+		a[end] = tmp;
+		start++;
 		end--;
 	}
-	return;
+
 }

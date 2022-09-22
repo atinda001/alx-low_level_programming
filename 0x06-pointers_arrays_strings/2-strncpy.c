@@ -9,22 +9,21 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	size_t x;
-	size_t i;
+	int i, lendest;
 
-	n = 65529;
-	x = (int16_t)n;
+	lendest = strlen(dest);
 
-
-	for (i = 0; i < x && src[i] != '\0'; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		dest[i] = src[i];
-		/*
-		 * for (i = 0; i < x; i++)
+		if (n < lendest)
 		{
-			dest[i] = '\0';
+		dest[i] = src[i];
 		}
-		*/
+
+	}
+	for ( ; i < n; i++)
+	{
+		dest[i] = '\0';
 	}
 		return (dest);
 }

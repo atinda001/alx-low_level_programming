@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - check the code
- * @n: number of elemnts to swap
- * @a: array of integers
- *
+ * print_array - prints array
+ *@a: int
+ *@n: number of times
  * Return: nothing
  */
 void print_array(int *a, int n)
@@ -14,7 +13,7 @@ void print_array(int *a, int n)
 	i = 0;
 	while (i < n)
 	{
-		if ( i != 0)
+		if (i != 0)
 		{
 			printf(", ");
 		}
