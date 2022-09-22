@@ -6,7 +6,7 @@
  */
 char *leet(char *s)
 {
-	int i, j, length;
+	int i, j, len;
 	int letters[5] = {97, 101, 111, 116, 108};
 	char num[5] = {'4', '3', '0', '7', '1'};
 

@@ -6,7 +6,7 @@
  */
 char *cap_string(char *s)
 {
-	int i, j, length;
+	int i, j, len;
 
 
 	int sep[13] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
