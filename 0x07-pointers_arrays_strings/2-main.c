@@ -11,7 +11,7 @@ int main(void)
 	char *f;
 
 	f = _strchr(s, 'l');
-	if ( f != NULL)
+	if (f != NULL)
 	{
 		printf("%s\n", f);
 	}

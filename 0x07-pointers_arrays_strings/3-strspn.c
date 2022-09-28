@@ -8,5 +8,8 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	strspn(s, accept);
+	size_t i;
+
+	i = strspn(s, accept);
+	return (i);
 }
