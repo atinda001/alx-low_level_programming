@@ -5,7 +5,7 @@
  * @s: pointer to string
  * Return: int
  */
- int _strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	size_t i;
 

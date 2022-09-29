@@ -2,8 +2,9 @@
 /**
  * _pow_recursion - find power of numbers
  *
- * @x: base number 
+ * @x: base number
  * @y: exponential
+ * Return: power
  */
 int _pow_recursion(int x, int y)
 {
@@ -13,5 +14,5 @@ int _pow_recursion(int x, int y)
 	{
 		return (-1);
 	}
-	return pow(x, y);
+	return (pow(x, y));
 }
