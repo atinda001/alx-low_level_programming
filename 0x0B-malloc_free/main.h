@@ -8,5 +8,6 @@ int _putchar();
 char *_strdup(char *str);
 #include <stdlib.h>
 char *str_concat(char *s1, char *s2);
+int **alloc_grid(int width, int height);
 #include <stdio.h>
 #endif /* _MAIN_H */
