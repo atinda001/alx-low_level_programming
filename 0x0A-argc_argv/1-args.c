@@ -6,7 +6,13 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
-
+	if (argc > 1)
+	{
+		printf("%d\n", (argc - 1));
+	}
+	else if (argv[0])
+	{
+		printf("0\n");
+	}
 	return (0);
 }
