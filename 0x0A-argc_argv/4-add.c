@@ -17,7 +17,11 @@ int main(int argc, char *argv[])
 		sum = sum + atoi(argv[i]);
 
 	}
-	if (!isdigit(argv[i]))
+	if (argc < 1)
+	{
+		printf("0\n");
+	}
+	if (i == isalpha(i))
 	{
 		printf("Error\n");
 	}
