@@ -4,7 +4,7 @@
  * @width: the width; row
  * @height: the height;columns
  * Return:pointer to array
- */ 
+ */
 int **alloc_grid(int width, int height)
 {
 	int **arr;
@@ -17,7 +17,7 @@ int **alloc_grid(int width, int height)
 	arr = (int **)malloc(sizeof(int *) * height);
 	if (arr == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	for (i = 0; i < height; i++)
 	{
@@ -25,7 +25,7 @@ int **alloc_grid(int width, int height)
 		if (arr[i] == NULL)
 		{
 			free(arr);
-		
+
 			for (j = 0; j <= i; j++)
 			{
 				free(arr[j]);
