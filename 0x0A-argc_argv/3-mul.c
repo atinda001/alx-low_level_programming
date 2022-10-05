@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - check the code
- *
- * Return: Always 0
+ *main - check the code
+ *@argc: argument counter
+ *@argv: argument vector
+ *Return: Always 0
  */
 int main(int argc, char *argv[])
 {

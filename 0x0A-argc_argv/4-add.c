@@ -3,7 +3,8 @@
 #include <stdlib.h>
 /**
  * main - check the code
- *
+ *@argc: argumet counter
+ *@argv: argument vector
  * Return: Always 0
  */
 int main(int argc, char *argv[])

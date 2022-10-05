@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
  * main - check the code
- *
- * Return; Always 0
+ *@argc: argument counter
+ *@argv: argument vector
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
 	int count;
-	
+
 	for (count = 0; count < argc; count++)
-		{
-			printf("%s\n", argv[count]);
-		}
+	{
+		printf("%s\n", argv[count]);
+	}
 	return (0);
 
 }

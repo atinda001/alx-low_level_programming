@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - check the code
- *
+ *@argc: argument counter
+ *@argv: Argument vector
  * Return: Always 0
  */
 int main(int argc, char *argv[])
