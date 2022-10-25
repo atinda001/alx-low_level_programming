@@ -2,7 +2,7 @@
 #include <string.h>
 #include "lists.h"
 /**
-*add_node-end - add node at the end
+*add_node_end - add node at the end
 *@head: first node
 *@str: string to be added
 *Return: addsed string to the end of list
