@@ -3,6 +3,7 @@
 *clear_bit - sets value of bit to 0
 *@n: pointer
 *@index: interger
+*Return: bit set 0
 */
 int clear_bit(unsigned long int *n, unsigned int index)
 {

@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 *set_bit - sets value of bit to 1 at given index
-*@n: pointer 
-*@index: integer showing position 
+*@n: pointer
+*@index: integer showing position
 *Return: returns int
 */
 int set_bit(unsigned long int *n, unsigned int index)
@@ -11,4 +11,4 @@ int set_bit(unsigned long int *n, unsigned int index)
 		return (-1);
 	*n = ((1UL << index) | *n);
 		return (1);
-}	
+}

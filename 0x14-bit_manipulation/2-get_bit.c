@@ -3,6 +3,7 @@
 *get_bit - return value of bit at given index
 *@n: integer
 *@index: position of integer
+*Return: value of bit
 */
 int get_bit(unsigned long int n, unsigned int index)
 {
@@ -12,4 +13,4 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (-1);
 	bit_val = (n >> index) & 1;
 	return (bit_val);
-} 
+}
